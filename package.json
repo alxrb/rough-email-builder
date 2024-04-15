@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "npm install --no-audit && eleventy --serve --watch",
     "build": "eleventy",
     "start": "eleventy --serve",
     "dev": "eleventy --serve --watch"
